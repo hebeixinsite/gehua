@@ -4,8 +4,8 @@
 # AutoBuild Actions
 
 Diy_Core() {
-Author=Hyy2001
-Default_Device=d-team_newifi-d2
+Author=.xinsite.www.xinsite.top
+Default_Device=gehua_ghl-r-001
 
 AutoUpdate_Version=`awk 'NR==6' ./package/base-files/files/bin/AutoUpdate.sh | awk -F'[="]+' '/Version/{print $2}'`
 Compile_Date=`date +'%Y/%m/%d'`
@@ -104,6 +104,7 @@ rm -rf package/network/services/dropbear && mv -f package/lean/dropbear package/
 
 ExtraPackages git luci-app-autoupdate https://github.com/Hyy2001X main
 ExtraPackages git luci-theme-argon https://github.com/jerrykuku 18.06
+ExtraPackages git openwrt-OpenAppFilter https://github.com/Lienol master
 ExtraPackages git luci-app-argon-config https://github.com/jerrykuku master
 ExtraPackages git luci-app-adguardhome https://github.com/Hyy2001X master
 ExtraPackages svn luci-app-smartdns https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t
