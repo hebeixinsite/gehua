@@ -4,7 +4,7 @@
 # AutoUpdate
 
 Version=V3.9
-DEFAULT_DEVICE=d-team_newifi-d2
+DEFAULT_DEVICE=gehua_ghl-r-001
 Github=https://github.com.cnpmjs.org/hebeixinsite/gehua
 
 TIME() {
